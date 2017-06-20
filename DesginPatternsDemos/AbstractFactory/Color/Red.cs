@@ -2,9 +2,10 @@
 
 namespace DesginPatternsDemos.AbstractFactory.Color
 {
-    public class Red :IShape
+    public class Red :IColor
     {
-        public void draw()
+   
+        public void fill()
         {
             Console.WriteLine("Inside Red::fill() method.");
         }
