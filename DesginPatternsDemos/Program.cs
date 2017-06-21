@@ -1,5 +1,6 @@
 ﻿using DesginPatternsDemos.AbstractFactory;
 using DesginPatternsDemos.AbstractFactory.FactoryProcucer;
+using DesginPatternsDemos.AbstractFactory.ShapeFactory;
 
 
 namespace DesginPatternsDemos
@@ -8,6 +9,10 @@ namespace DesginPatternsDemos
     {
         static void Main(string[] args)
         {
+            //ShapeFactory s = new ShapeFactory();
+
+            //IShape circle = s.GetShape("Circle");
+
             //get shape factory
             AbstractFactory.AbstractFactory shapeFactory = FactoryProducer.getFactory("SHAPE");
 
